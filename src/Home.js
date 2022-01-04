@@ -15,7 +15,7 @@ import {
   ListSubheader,
   Box,
   Grid,
-  Hidden,
+  Hidden, 
   Switch,
 } from '@material-ui/core';
 import { useTheme } from '@material-ui/core/styles';
@@ -24,8 +24,8 @@ import AccountCircle from '@material-ui/icons/AccountCircle';
 
 import Apps from '@material-ui/icons/Apps';
 import MoreVert from '@material-ui/icons/MoreVert';
-import VideoCall from '@material-ui/icons/VideoCall';
-
+import LocalShippingIcon from '@material-ui/icons/LocalShipping';
+import BorderColorIcon from '@material-ui/icons/BorderColor';
 import HomeIcon from '@material-ui/icons/Home';
 import Subscriptions from '@material-ui/icons/Subscriptions';
 import Whatshot from '@material-ui/icons/Whatshot';
@@ -211,7 +211,7 @@ function Home({ darkMode, setDarkMode }) {
                 
                 <ListItem button classes={{ root: classes.listItem }}>
                   
-                  <ListItemIcon>{<Whatshot />}</ListItemIcon>
+                  <ListItemIcon>{< LocalShippingIcon/>}</ListItemIcon>
                   <ListItemText
                     classes={{
                       primary: classes.listItemText,
@@ -227,7 +227,7 @@ function Home({ darkMode, setDarkMode }) {
               <List>
                 <ListItem button classes={{ root: classes.listItem }}>
                   <ListItemIcon>
-                    <VideoLibrary />
+                    <BorderColorIcon />
                   </ListItemIcon>
                   <ListItemText
                     classes={{
