@@ -283,10 +283,10 @@ function Home({ darkMode, setDarkMode }) {
           </Drawer>
         </Hidden>
 
-        <Box p={8}>
+        <Box pl={60} >
           <Toolbar />
         
-          <CalculateShipping/>
+          <CalculateShipping />
           
         </Box>
       </Box>

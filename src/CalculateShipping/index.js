@@ -11,7 +11,7 @@ export default function CalculateShipping() {
     const onSubmit=(data) => console.log(data)
 
     return (
-        <Container maxWidth="xs">
+        <Container >
             <h1 >Incluir / Editar / filtrar ( por todos os campos</h1>
             <form onSubmit={handleSubmit(onSubmit)}>
             <Box mb={5}>
@@ -40,7 +40,7 @@ export default function CalculateShipping() {
             </Box>
            <DataTable/>
             <Button type="submit" variant='contained' color="primary" fullWidth>CEP</Button>
-            <Box mt={2}>
+            <Box mt={2} >
             <Button type="submit" variant='contained' color="secondary" fullWidth>Map</Button>
             </Box>
             </form>
