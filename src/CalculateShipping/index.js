@@ -4,6 +4,7 @@ import Container from '@material-ui/core/Container';
 import Button from '@material-ui/core/Button';
 import Box from '@material-ui/core/Box';
 import { useForm } from 'react-hook-form';
+import DataTable from '../Table';
 
 export default function CalculateShipping() {
     const {register, handleSubmit, formState: {errors}} = useForm()
@@ -37,6 +38,7 @@ export default function CalculateShipping() {
             /> 
             </Box>
             </Box>
+           <DataTable/>
             <Button type="submit" variant='contained' color="primary" fullWidth>CEP</Button>
             <Box mt={2}>
             <Button type="submit" variant='contained' color="secondary" fullWidth>Map</Button>
