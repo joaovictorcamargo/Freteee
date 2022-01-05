@@ -18,7 +18,7 @@ function App() {
         main: '#f44336',
       },
       secondary: {
-        main: '#006400',
+        main: '#3EA6FF',
       },
       background: {
         default: darkMode ? '#232323' : '#FFF',
